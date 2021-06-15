@@ -9,7 +9,7 @@ Vehicle length and ground clearance provide non-random variance with 6.267e+00 a
 
 * Is the slope of the linear model considered to be zero? Why or why not?
 
-The slope of the linear model is not considered to be zero because the p-value is 5.35e-11 which is larger than 0.05.
+The slope of the linear model is not considered to be zero because the p-value is 5.35e-11 which is smaller than 0.05.
 
 * Does this linear model predict the mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -32,9 +32,19 @@ The variance for the total lot specification is 62.29356. This does not exceed t
 ## T-Tests on Suspension Coils
 ### T-tests determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-Looking at the t-test that compares all manufacturing lots against mean PSI of the population, the p-value is 0.06028 Individually, Lot 1 has a p-value of 1 and Lot 2 has a p-value of 0.6072. Both lots are close to the 0.05 limit, but still above. Lot 3 has a p-value of 0.04168 which is below the significance level.
+Looking at the t-test that compares all manufacturing lots against mean PSI of the population, the p-value is 0.06028 Individually, Lot 1 has a p-value of 1 and Lot 2 has a p-value of 0.6072. Both lots are close to the 0.05 limit, but still above. In other words, Lot 1 and Lot 2 PSI values are not statistically different from the population mean.
+
+However, Lot 3 has a p-value of 0.04168 which is below the significance level. Therefore, Lot 3 mean suspension coil PSI is statistically different from the population mean
 
 ![t_test_all.png](images/t_test_all.png)
 ![t_test_lot1.png](images/t_test_lot1.png)
 ![t_test_lot2.png](images/t_test_lot2.png)
 ![t_test_lot3.png](images/t_test_lot3.png)
+
+## Study Design: MechaCar vs Competition
+### A statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+* What metric or metrics are you going to test?
+* What is the null hypothesis or alternative hypothesis?
+* What statistical test would you use to test the hypothesis? And why?
+* What data is needed to run the statistical test?

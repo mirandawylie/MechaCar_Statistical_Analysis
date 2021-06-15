@@ -32,9 +32,7 @@ The variance for the total lot specification is 62.29356. This does not exceed t
 ## T-Tests on Suspension Coils
 ### T-tests determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-Looking at the t-test that compares all manufacturing lots against mean PSI of the population, the p-value is 0.06028.
-
-Individually, Lot 1 has a p-value of 1 and Lot 2 has a p-value of 0.6072. Both lots are close to the 0.05 limit, but still above. Lot 3 has a p-value of 0.04168 which is below the significance level.
+Looking at the t-test that compares all manufacturing lots against mean PSI of the population, the p-value is 0.06028 Individually, Lot 1 has a p-value of 1 and Lot 2 has a p-value of 0.6072. Both lots are close to the 0.05 limit, but still above. Lot 3 has a p-value of 0.04168 which is below the significance level.
 
 ![t_test_all.png](images/t_test_all.png)
 ![t_test_lot1.png](images/t_test_lot1.png)

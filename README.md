@@ -44,7 +44,4 @@ However, Lot 3 has a p-value of 0.04168 which is below the significance level. T
 ## Study Design: MechaCar vs Competition
 ### A statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+To compare the performance of the MechaCar and other vehicles, I would prioritize examining the vehicle length and ground clearance metrics. These factors can greatly affect city or highway fuel efficiency, horse power, maintenance cost, or safety rating which consumers care about. The hypothesis being that adjusting the vehicle length and ground clearance would make the car more aerodynamic. The statistical test to examine the hypothesis would be calculate the mean, median, standard deviation and variance of the vehicle length and ground clearance of all vehicles. Since these coefficients had the greatest impact on the MechaCar performance it would be good to see how other vehicles compare.
